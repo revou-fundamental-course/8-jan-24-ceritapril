@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>KALTIK</title>
+</head>
+    <header>
+        <h1>
+            <span class="large">KALTIK</span>
+            <span class="medium">Kalkulator Matematik Persegi</span>
+        </h1> 
+        <h4>Welcome to Kalkulator Luas dan Keliling Persegi</h4>
+        <p>Hai Sobat, Selamat datang di Kalkulator Matematik Persegi!</p>
+        <p>Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p>
+    </header>
+</body>
+<body>
+<div class="KALTIK"> 
+<div class="LuasPersegi">  
+    <h2>Luas Persegi</h2>
+    <div class="img">
+        <img class="center" src="Persegi.png" alt="Persegi"/> 
+    </div>
+    <div class="text">
+        <p>Rumus luas persegi yaitu:</p>
+        <p align="center">L = S x S</p>
+        <p> Di mana:</p> L = Luas </br> S = Sisi 
+    </div>
+    <div class="InputSection">
+        <p> Hitung Luas Persegi </p>
+        <input type="number" id="s">
+    </div>
+    <div class="buttons">
+        <button id="countButton">Hitung</button>
+        <button id="resetButton">Reset</button>
+    </div>
+    <div>
+        <p>Luas Persegi adalah <span id="luas"></span></p>
+     </div>
+</div>
+<div class="KelilingPersegi"> 
+    <h2>Keliling Persegi</h2>
+    <div class="img2">
+        <img class="center" src="Persegi.png" alt="Persegi"/> 
+    </div>
+    <div class="text2">
+        <p>Rumus keliling persegi yaitu:</p>
+        <p align="center">K = 4 x S</p>
+        <p> Di mana:</p> K = Keliling </br> S = Sisi 
+    </div>
+    <div class="InputSection2">
+        <p> Hitung Keliling Persegi </p>
+        <input type="number" id="s2">
+    </div>
+    <div class="buttons2">
+        <button id="button2">Hitung</button>
+        <button id="reset2">Reset</button>
+    </div>
+    <div>
+        <p>Keliling Persegi adalah <span id="keliling"></span></p>
+     </div>
+ </div>
+</div>
+    <script src="js/script.js"></script>
+</body>
+</html>
